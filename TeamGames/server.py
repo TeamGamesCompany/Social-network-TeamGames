@@ -10,6 +10,15 @@ app = Flask(__name__)
 def index():
 	with open('index.html', 'r') as file:
 		return file.read()
+	
+	@app.route('/script.js', methods=['POST', 'GET'])
+def index():
+	with open('script.js', 'r') as file:
+		return file.read()
+	@app.route('/style.css, methods=['POST', 'GET'])
+def index():
+	with open('style.css file:
+		return file.read()
 
 
 if __name__ == '__main__':
