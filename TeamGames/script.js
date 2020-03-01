@@ -12,8 +12,9 @@ function reg () {
 			if (document.getElementById('passwordi').value > '') {
 				if (document.getElementById('emaili').value > '') {
 					ima.style.left = 537 + 'px';
-					registration = document.getElementById('one').value;
-					document.getElementById('ima').innerHTML = registration 
+					('#ima').css('left': '537px');
+					$(registration).html('#one');
+					$('#ima').html(registration);
 					one.style.display = 'none';
 					registratio = document.getElementById('two').value;
 					document.getElementById('fama').innerHTML = registratio 
